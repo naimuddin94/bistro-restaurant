@@ -15,3 +15,15 @@ export interface Menu {
 export interface MenuCardProps {
   menu: Menu;
 }
+
+export interface CoverProps {
+  coverImg: string;
+  heading: string;
+}
+
+export interface MenuFoodsProps {
+  img: string;
+  heading: string;
+  category: string;
+  isTitle?: boolean;
+}

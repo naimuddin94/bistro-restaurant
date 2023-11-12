@@ -11,8 +11,8 @@ import slide6 from "/assets/home/06.png";
 const Banner = () => {
   return (
     <div>
-      <Carousel autoPlay={true} infiniteLoop={true} transitionTime={1}>
-        <div className="w-full">
+      <Carousel className="text-center" autoPlay={true} infiniteLoop={true} transitionTime={1}>
+        <div className="">
           <img src={slide1} className="" />
         </div>
         <div>

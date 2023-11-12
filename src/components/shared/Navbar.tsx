@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`navbar fixed z-50 text-white max-w-[1440px] mx-auto ${
+      className={`navbar fixed z-50 text-white max-w-[1440px] mx-auto uppercase ${
         scrolling
           ? "bg-black/80"
           : "bg-transparent"
@@ -53,7 +53,7 @@ const Navbar = () => {
             <NavItems />
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Bistro Boss</a>
+        <a className="btn btn-ghost text-xl">Bistro Boss</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

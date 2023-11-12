@@ -10,7 +10,7 @@ const MenuCard = ({ menu }: MenuCardProps) => {
       />
       <div>
         <div className="flex justify-between">
-          <h2 className="text-lg font-semibold">{menu.name}</h2>
+          <h2 className="text-lg font-semibold">{menu.name}<span className="text-xs font-medium uppercase bg-slate-200 rounded-full px-3 py-1 ml-2">{ menu.category}</span></h2>
           <h3 className="text-yellow font-bold">${menu.price}</h3>
         </div>
         <p>{menu.recipe}</p>
